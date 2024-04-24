@@ -747,29 +747,25 @@ footer img:hover {
 
     /*contact page styling*/
 
-    .contact_content {
+.box {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
+        flex-direction: column;
     }
 
-
-
     .side_display p {
-        color: #fff;
+        color: #000;
         font-size: 28px;
         text-align: center;
+        margin-bottom: 20px;
     }
 
     .side_display h3 {
         justify-content: left;
-        color: #fff;
+        color: #000;
     }
 
     .side_display p a {
-        color: #fff;
+        color: #000;
     }
 
     .side_display p a:hover {
