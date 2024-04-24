@@ -756,22 +756,16 @@ footer img:hover {
     }
 
 
-    .box {
-        display: flex;
-        flex-direction: column;
-        background-color: #000;
-    }
 
     .side_display p {
-        background-color: #000;
-        color: #f0f0f0;
+        color: #fff;
         font-size: 28px;
         text-align: center;
     }
 
     .side_display h3 {
         justify-content: left;
-        color: #f0f0f0;
+        color: #fff;
     }
 
     .side_display p a {
