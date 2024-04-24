@@ -144,7 +144,7 @@ strong {
 
 .active a {
     display: inline-block;
-    color: #ebbbeb;
+    color: #fff;
     text-decoration: underline;
 }
 
