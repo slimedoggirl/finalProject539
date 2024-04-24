@@ -144,7 +144,7 @@ strong {
 
 .active a {
     display: inline-block;
-    color: #EB95EB;
+    color: #ebbbeb;
     text-decoration: underline;
 }
 
@@ -273,6 +273,8 @@ footer {
 footer p {
     display: inline-flex;
     background-color: #C6101F;
+    font-size: 24px;
+    font-weight: bold;
     padding-left: 10px;
     width: 100%;
 }
