@@ -1,0 +1,888 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    line-height: 1.15;
+    color: #000000;
+    font-family: 'Spline Sans Mono', sans-serif;
+    min-height: 100%;
+
+}
+
+a {
+    color: #C6101F;
+}
+
+p a {
+    color: #C6101F;
+}
+
+.header-background {
+    background-color: #FFFFFF;
+    width: 75%;
+    margin: 0 auto;
+}
+
+h1 {
+    display: none;
+}
+
+h1:focus {
+    font-family: 'Jacquard 24', Courier, monospace;
+    font-weight: bold;
+    margin: 15px 0px;
+    color: #000000;
+    font-size: 36px;
+    text-align: left;
+    padding: 10px;
+}
+
+h2 {
+    font-weight: bold;
+    margin: 20px 0px;
+    font-size: 30px;
+    text-align: center;
+    color: #C6101F;
+    background: url('../images/border.png');
+    z-index: 2;
+    padding: 10px 20px 10px 20px;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Jacquard 24', Courier, monospace;
+}
+
+h3 {
+    font-weight: bold;
+    margin: 20px 0px;
+    font-size: 30px;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+/* Style the navigation menu from W3Schools*/
+.topnav {
+    width: 100%;
+    background-color: #C6101F;
+    position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+    display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 5px 20px;
+    border-radius: 15px;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Jacquard 24', Courier, monospace;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+
+/* Style the hamburger menu */
+.topnav a.icon {
+    background: none;
+}
+
+
+i {
+    color: #C6101F;
+}
+
+.fa.fa-bars {
+    color: #EB95EB;
+    font-size: 40px;
+    background-color: #C6101F;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Styling for index page */
+.description {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    margin: 25px;
+    padding: 0;
+    list-style: none;
+}
+
+.description li {
+    background-color: #EB95EB;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+strong {
+    font-weight: bold;
+}
+
+
+.active {
+    display: inline-block;
+    color: #EB95EB;
+    text-decoration: underline;
+}
+
+.active a {
+    display: inline-block;
+    color: #EB95EB;
+    text-decoration: underline;
+}
+
+
+nav {
+    background: #C6101F;
+    width: 100%;
+}
+
+p {
+    font-family: 'Spline Sans Mono', sans-serif;
+    color: #000000;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+img {
+    width: 100%;
+    max-width: 15em;
+    box-sizing: border-box;
+    border: 10px solid #C6101F;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+video {
+    width: 100%;
+    max-width: 24em;
+    box-sizing: border-box;
+    padding: 15px;
+    border: 5px solid #C6101F;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img:hover {
+    box-shadow: 0 0 10px #000000;
+}
+
+video:hover {
+    box-shadow: 0 0 10px #000000;
+}
+
+
+i:focus {
+    box-shadow: none;
+    border: #000000 solid 2px;
+}
+
+header img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+ul {
+    list-style-type: circle;
+    color: black;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.skip a:focus {
+    position: static;
+    left: 40px;
+    width: auto;
+    height: auto;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: url('../images/background2.png');
+    background-position: fixed;
+    background-size: 100%;
+}
+
+/* main{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: url('../images/star.png');
+    background-size:5%;
+    background-repeat:repeat;
+    background-position: fixed;
+} */
+
+.content {
+    flex-grow: 1;
+    background-color: #FFFFFF;
+    max-width: 80%;
+    margin: 30px auto 0;
+    padding: 20px 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.content:first-child {
+    border: #000000 solid 6px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #C6101F;
+    width: 100%;
+}
+
+footer p {
+    display: inline-flex;
+    background-color: #C6101F;
+    padding-left: 10px;
+    width: 100%;
+}
+
+footer img {
+    display: inline-flex;
+    background-color: #C6101F;
+    border-radius: 0px;
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 5%;
+}
+
+footer img:hover {
+    box-shadow: none;
+}
+
+/*Styling below for cards within fun stuff from w3schools*/
+
+.consoles {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card .container {
+    flex: 1;
+}
+
+/*styling for cards and make it a flex container*/
+.card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    height: auto;
+    z-index: 1;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+
+/*Styling below for collapsible portion of card within fun stuff from w3schools*/
+.collapsible {
+    background-color: #EB95EB;
+    color: #C6101F;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Spline Sans Mono', sans-serif;
+    font-weight: bold;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    z-index: 2;
+    align-items: flex-end;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active .collapsible:hover {
+    background-color: #EB95EB;
+    border: #C6101F solid 2px;
+    color: #C6101F !important;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.active .collapsible {
+    background-color: #EB95EB;
+    border: #C6101F solid 2px;
+    color: #C6101F !important;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    z-index: 2;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.games {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #EB95EB;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.games ul {
+    padding-left: 50px;
+    list-style: square url(../images/dot.png) inside;
+    list-style-position: inherit;
+}
+
+.games li {
+    line-height: 3;
+}
+
+.games p {
+    line-height: 2;
+    background-color: #EB95EB;
+}
+
+.art-gallery img {
+    padding: 10px;
+    size: auto;
+}
+
+
+@media screen and (min-width: 800px) {
+
+    /* Style the navigation menu from W3Schools*/
+    .topnav {
+        width: 100%;
+        background-color: #C6101F;
+        position: relative;
+    }
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    /* Style navigation menu links */
+    .topnav a {
+        display: inline-block;
+        margin: 0 15px;
+        padding: 5px 20px;
+        border-radius: 15px;
+        color: #000000;
+        text-decoration: none;
+        font-family: 'Jacquard 24', Courier, monospace;
+        font-weight: bolder;
+        font-size: 40px;
+    }
+
+    /* Style the hamburger menu */
+    .topnav a.icon {
+        background: none;
+    }
+
+    i {
+        color: #C6101F;
+    }
+
+    .fa.fa-bars {
+        color: #EB95EB;
+        font-size: 40px;
+        background-color: #C6101F;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    strong {
+        font-weight: bold;
+    }
+
+    /* property to style all elements when in focus */
+    *:focus {
+        border: 2px solid black;
+    }
+
+    a:hover {
+        border: 2px solid black;
+        background-color: #FFFFFF;
+        color: #000;
+    }
+
+    .active {
+        display: inline-block;
+        color: #EB95EB;
+        border-radius: 15px;
+        text-decoration: underline;
+    }
+
+    .active a {
+        display: inline-block;
+        color: #EB95EB;
+        text-decoration: underline;
+    }
+
+    .active a:hover {
+        display: inline-block;
+        color: #C6101F;
+        text-decoration: underline;
+    }
+
+    nav {
+        background: #C6101F;
+        width: 100%;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-top: 30px;
+    }
+
+    main {
+        background-size: 10%;
+    }
+
+    h2 {
+        background: url('../images/border.png');
+        background: url('../images/border.png');
+        z-index: 2;
+        padding: 80px 20px 80px 20px;
+        background-size: cover;
+        background-position: center;
+        background-size: 80%;
+        background-repeat: no-repeat;
+    }
+
+    /*collapsible area of card styling*/
+    .collapsible {
+        background-color: #EB95EB;
+        color: #C6101F;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 16px;
+        font-family: 'Spline Sans Mono', sans-serif;
+        font-weight: bold;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    /*card grid styling*/
+    .consoles {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.profile {
+    position: relative;
+}
+
+#face {
+    z-index: 2;
+    position: relative;
+}
+
+/*index page animations*/
+.animations {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.animations img {
+    position: absolute;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.animation-button {
+    cursor: pointer;
+}
+
+/*archivist animation*/
+#light {
+    display: block
+}
+
+#light {
+    width: 60px;
+    transition: transform 0.5s ease;
+    border: none;
+}
+
+#light.pop-out {
+    transform: translate(-200px, -80px);
+}
+
+/*artist animation*/
+#cat {
+    display: block
+}
+
+#cat {
+    width: 90px;
+    transition: transform 0.5s ease;
+    border: none;
+}
+
+#cat.pop-out {
+    transform: translate(120px, 30px);
+}
+
+/*gamer animation*/
+#lines {
+    display: block;
+}
+
+#lines {
+    width: 500px;
+    transition: transform 1s ease;
+    top: 45px;
+    border: none;
+}
+
+#lines.pop-out {
+    /* animation: MoveUpDown 1s linear infinite;
+        position: absolute;
+        left: 0;
+        bottom: 0; */
+    transform: translateX(-210px);
+}
+
+/* @keyframes MoveUpDown {
+        0%, 100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-100px);
+        }
+      } */
+
+/*light animation*/
+#mic {
+    display: block
+}
+
+#mic {
+    width: 90px;
+    top: -90px;
+    transition: transform 0.5s ease;
+    border: none;
+}
+
+#mic.pop-out {
+    transform: translateX(150px);
+}
+
+.animation-button:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+@media screen and (min-width: 1200px) {
+
+    /*  Remove the hamburger menu*/
+    .topnav a.icon {
+        display: none;
+    }
+
+    .topnav a.icon {
+        display: none;
+    }
+
+    .fa.fa-bars {
+        display: none;
+    }
+
+    .topnav #myLinks {
+        display: flex;
+    }
+
+    .topnav {
+        display: none;
+    }
+
+    .topnav a {
+        text-decoration: none;
+    }
+
+    /*format nav links*/
+    .topnav {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        list-style-type: none;
+    }
+
+    /* style the nav links*/
+    .topnav a {
+        display: inline-block;
+        text-decoration: none;
+        font-family: 'Jacquard 24', Courier, monospace;
+        font-weight: bolder;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 32px;
+    }
+
+    main {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background: none
+    }
+
+    /*card styling*/
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        background-color: #000000;
+        min-height: 300px;
+        /* background: url('../images/horizontal.png');
+        background-position: fixed;
+        background-size: 100%; */
+    }
+
+
+    h2 {
+        background: url('../images/border.png');
+        background: url('../images/border.png');
+        z-index: 2;
+        padding: 20px 10px 20px 10px;
+        background-size: cover;
+        background-position: center;
+        background-size: 30%;
+        background-repeat: no-repeat;
+    }
+
+    h3 {
+        color: #FFFFFF;
+    }
+
+    /*Styling below for collapsible portion of card within fun stuff from w3schools*/
+    .collapsible {
+        background-color: #EB95EB;
+        color: #C6101F;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 16px;
+        font-family: 'Spline Sans Mono', sans-serif;
+        font-weight: bold;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    .active .collapsible:hover {
+        background-color: #EB95EB;
+        border: #C6101F solid 2px;
+        color: #C6101F !important;
+    }
+
+    .active .collapsible {
+        background-color: #EB95EB;
+        border: #C6101F solid 2px;
+        color: #C6101F !important;
+    }
+
+    /*contact page styling*/
+
+    .contact_content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        background-color: #000;
+    }
+
+    .side_display p {
+        background-color: #000;
+        color: #f0f0f0;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .side_display h3 {
+        justify-content: left;
+        color: #f0f0f0;
+    }
+
+    .side_display p a {
+        color: #fff;
+    }
+
+    .side_display p a:hover {
+        color: #C6101F;
+    }
+
+    /*work page styling*/
+
+    .archive-gallery h3 {
+        color: #000;
+    }
+
+    .art-gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        background-color: #000;
+        border-radius: 15px;
+    }
+
+    .art-gallery img {
+        height: auto;
+        width: 100%;
+        min-height: 100%;
+        object-fit: fill;
+    }
+
+    /*index page animations*/
+    .animation-button {
+        cursor: pointer;
+    }
+
+    /*archivist animation*/
+    #light {
+        display: block
+    }
+
+    #light {
+        width: 60px;
+        transition: transform 0.5s ease;
+        border: none;
+    }
+
+    #light.pop-out {
+        transform: translate(-200px, -80px);
+    }
+
+    /*artist animation*/
+    #cat {
+        display: block
+    }
+
+    #cat {
+        width: 90px;
+        transition: transform 0.5s ease;
+        border: none;
+    }
+
+    #cat.pop-out {
+        transform: translate(120px, 30px);
+    }
+
+    /*gamer animation*/
+    #lines {
+        display: block;
+    }
+
+    #lines {
+        width: 500px;
+        transition: transform 1s ease;
+        top: 45px;
+        border: none;
+    }
+
+    #lines.pop-out {
+        /* animation: MoveUpDown 1s linear infinite;
+        position: absolute;
+        left: 0;
+        bottom: 0; */
+        transform: translateX(-210px);
+    }
+
+    /* @keyframes MoveUpDown {
+        0%, 100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-100px);
+        }
+      } */
+
+    /*light animation*/
+    #mic {
+        display: block
+    }
+
+    #mic {
+        width: 90px;
+        top: -90px;
+        transition: transform 0.5s ease;
+        border: none;
+    }
+
+    #mic.pop-out {
+        transform: translateX(150px);
+    }
+
+    .animation-button:hover {
+        background-color: #f0f0f0;
+        color: #000;
+    }
+}
